@@ -1,0 +1,55 @@
+
+SimpleMan.png
+size: 1573,406
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 1
+  rotate: true
+  xy: 2, 29
+  size: 375, 860
+  orig: 377, 862
+  offset: 1, 1
+  index: -1
+图层 2
+  rotate: false
+  xy: 864, 2
+  size: 399, 402
+  orig: 401, 404
+  offset: 1, 1
+  index: -1
+图层 3
+  rotate: true
+  xy: 2, 9
+  size: 18, 252
+  orig: 20, 254
+  offset: 1, 1
+  index: -1
+图层 4
+  rotate: true
+  xy: 1438, 12
+  size: 195, 133
+  orig: 197, 135
+  offset: 1, 1
+  index: -1
+图层 5
+  rotate: true
+  xy: 1471, 209
+  size: 195, 96
+  orig: 197, 100
+  offset: 1, 2
+  index: -1
+图层 6
+  rotate: false
+  xy: 1265, 10
+  size: 171, 208
+  orig: 174, 210
+  offset: 1, 1
+  index: -1
+图层 7
+  rotate: true
+  xy: 1265, 220
+  size: 184, 204
+  orig: 186, 206
+  offset: 1, 1
+  index: -1

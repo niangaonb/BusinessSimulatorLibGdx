@@ -13,17 +13,23 @@ class BSSMain : ApplicationAdapter() {
 
     override fun create() {
         spriteBatch = SpriteBatch()
-        simplePerson = SimplePerson(50, 70, 5)
+        simplePerson = SimplePerson(300f, 200f)
+        simplePerson.draw()
     }
 
     override fun render() {
         Gdx.gl.glClearColor(1f, 0f, 0f, 0f)
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
-        simplePerson.draw()
         spriteBatch.begin()
         spriteBatch.draw(Texture(Gdx.files.internal("textures/View1.png")), 0f, 0f)
-        spriteBatch.draw(simplePerson.getTextures(), simplePerson.getX().toFloat(), simplePerson.getY().toFloat())
-        simplePerson.inputListener()
         spriteBatch.end()
+        simplePerson.getState().update(Gdx.graphics.deltaTime)
+        simplePerson.getState().apply(simplePerson.getSkeleton())
+        simplePerson.getSkeleton().updateWorldTransform()
+        simplePerson.getBatch().begin()
+        simplePerson.getRender().draw(simplePerson.getBatch(), simplePerson.getSkeleton())
+        simplePerson.getBatch().end()
+        simplePerson.inputListener()
+        simplePerson.runAnimation()
     }
 }

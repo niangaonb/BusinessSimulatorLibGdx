@@ -1,0 +1,40 @@
+{ "skeleton": { "images": "E:/MyPrograme/Games/BusinessSimulator/assets/textures/SimpleMan/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "图层 1", "bone": "root", "attachment": "图层 1" },
+	{ "name": "图层 7", "bone": "root", "attachment": "图层 7" },
+	{ "name": "图层 6", "bone": "root", "attachment": "图层 6" },
+	{ "name": "图层 5", "bone": "root", "attachment": "图层 5" },
+	{ "name": "图层 4", "bone": "root", "attachment": "图层 4" },
+	{ "name": "图层 3", "bone": "root", "attachment": "图层 3" },
+	{ "name": "图层 2", "bone": "root", "attachment": "图层 2" }
+],
+"skins": {
+	"default": {
+		"图层 1": {
+			"图层 1": { "x": 229.5, "y": -430, "width": 377, "height": 862 }
+		},
+		"图层 7": {
+			"图层 7": { "x": 306, "y": -754, "width": 186, "height": 206 }
+		},
+		"图层 6": {
+			"图层 6": { "x": 124, "y": -756, "width": 174, "height": 210 }
+		},
+		"图层 5": {
+			"图层 5": { "x": 319.5, "y": -502, "width": 197, "height": 100 }
+		},
+		"图层 4": {
+			"图层 4": { "x": 107.5, "y": -519.5, "width": 197, "height": 135 }
+		},
+		"图层 3": {
+			"图层 3": { "x": 214, "y": -528, "width": 20, "height": 254 }
+		},
+		"图层 2": {
+			"图层 2": { "x": 209.5, "y": -201, "width": 401, "height": 404 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
